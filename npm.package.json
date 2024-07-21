@@ -1,0 +1,30 @@
+{
+  "name": "your-package-name",
+  "version": "0.0.0",
+  "description": "Description your package",
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/es.js",
+      "require": "./lib/umd.js"
+    },
+    "./lib/styles.css": {
+      "require": "./lib/styles.css",
+      "default": "./lib/styles.css"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateuszGacek/vite-npm-package.git"
+  },
+  "files": ["./lib/"],
+  "keywords": ["typescript", "utils", "chatbot", "openai", "react"],
+  "author": "Mateusz Gacek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MateuszGacek/vite-npm-package/issues"
+  },
+  "homepage": "https://github.com/MateuszGacek/vite-npm-package#readme"
+}
