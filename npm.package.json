@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MateuszGacek/vite-npm-package.git"
+    "url": "git+https://github.com/MateuszGacek/vite-react-typescript-npm-package.git"
   },
   "files": ["./lib/"],
   "keywords": ["typescript", "utils", "chatbot", "openai", "react"],
   "author": "Mateusz Gacek",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MateuszGacek/vite-npm-package/issues"
+    "url": "https://github.com/MateuszGacek/vite-react-typescript-npm-package/issues"
   },
-  "homepage": "https://github.com/MateuszGacek/vite-npm-package#readme"
+  "homepage": "https://github.com/MateuszGacek/vite-react-typescript-npm-package#readme"
 }
